@@ -43,30 +43,11 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  // final _auth = FirebaseAuth.instance;
-  // late User loggedInUser;
-
   @override
   void initState() {
     super.initState();
-    // Firebase.initializeApp().whenComplete(() { 
-    //   print("completed");
-    //   setState(() {});
-    // });
-    //getUser();
   }
 
-  // void getUser() async {
-  //   try{
-  //   final user = _auth.currentUser;
-  //   if(user!=null){
-  //     loggedInUser = user;
-  //     print(loggedInUser.email);
-  //   }}
-  //   catch(e){
-  //     print(e);
-  //   }
-  // }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
